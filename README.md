@@ -30,18 +30,9 @@
 
 ## 🚀 Быстрый старт
 
-### Прямое использование
-```bash
-# Тестовый запрос
-curl --resolve (твой домен или catgroupmeow.xyz):443:89.169.90.10 https://(твой домен или catgroupmeow.xyz)
-
-# Добавить в брандмауэр
-# Разрешить: 89.169.90.0/24
-```
-
 ### Автоматическое сканирование
 ```bash
-# Клонировать и запустить
+
 git clone https://github.com/catgroupmeow/ip-mwscdn.git
 cd ip-mwscdn
 python scanner.py
