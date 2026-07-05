@@ -1,9 +1,3 @@
-"""
-Сканер IP для MWS CDN (catgroupmeow.xyz) - исправленная версия
-Использует сокеты + TLS, двойная проверка найденных IP.
-Успех = HTTP 400.
-"""
-
 import ipaddress
 import socket
 import ssl
